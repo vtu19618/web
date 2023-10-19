@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Registration Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="registrationstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Registration</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter Full Name"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Weight">Weight</label>
+            <input type="text"
+                    id="Weight"
+                    name="Weight"
+                    placeholder="Enter your weight in KG"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Needatrainer">Need a personal trainer</label>
+            <input type="text"
+                    id="Needatrainer"
+                    name="Needatrainer"
+                    placeholder="Yes/No"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Membership">Membership plan</label>
+            <input type="text"
+                    id="Membership"
+                    name="Membership"
+                    placeholder="Yearly/monthly"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Enterheight">Enter your height</label>
+            <input type="text"
+                    id="Enterheight"
+                    name="Enterheight"
+                    placeholder="In cm or feet"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
